@@ -1056,7 +1056,7 @@ nav#filter li {
     align-items: flex-end;
     justify-content: center;
 }
-.main-container p{
+.head-sub-title{
 	color: whitesmoke;
 	font-size:2em;
 }
@@ -1074,3 +1074,28 @@ nav#filter li {
 #services h4{
 	color:whitesmoke;
 }
+
+@media (max-width: 768px) {
+	.head-sub-title{
+		font-size:1.2em;
+	}
+	.styled{
+		margin-bottom: 5px;
+	}
+	.info{
+		margin-bottom: 30px;
+	}
+	.info-bus > h4{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact-parlex{
+		background-image: url('../images/banner-bg2.jpg');
+	}
+	.my-words h3{
+		font-size: 18px;
+	}
+}
+
