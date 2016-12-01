@@ -324,7 +324,7 @@ h2, .h2 {
 }
 .styled div {
 	display: inline-block;
-	margin-left: 10px;
+	
 	font-size: 70px;
 	font-weight: normal;
 	text-align: center;
@@ -348,7 +348,7 @@ h2, .h2 {
 	zoom: 1;
 }
 .styled div:first-child {
-	margin-left: 0;
+	
 }
 .styled div span {
 	display: block;
@@ -932,7 +932,7 @@ footer {
 }
 .styled div {
 	display: inline-block;
-	margin-left: 10px;
+	margin: 0 25px;
 	font-size: 50px;
 }
 .styled div span {
@@ -971,7 +971,7 @@ footer {
 }
 .styled div {
 	display: inline-block;
-	margin-left: 10px;
+	margin: 0 10px;
 	font-size: 28px;
 }
 .styled div span {
@@ -1077,25 +1077,43 @@ nav#filter li {
 
 @media (max-width: 768px) {
 	.head-sub-title{
-		font-size:1.2em;
+		font-size:1.5em;
 	}
 	.styled{
-		margin-bottom: 5px;
+		margin-bottom: 30px;
 	}
 	.info{
-		margin-bottom: 30px;
+		margin-bottom: 60px;
 	}
 	.info-bus > h4{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		line-height: 1.5em;
 	}
 	.contact-parlex{
 		background-image: url('../images/banner-bg2.jpg');
 	}
 	.my-words h3{
-		font-size: 18px;
+		font-size: 24px;
 	}
 }
 
+@media (max-width: 480px) {
+	.head-sub-title{
+		font-size:1.2em;
+		margin:0 !important;
+	}
+	.styled{
+		margin-bottom: 5px;
+	}
+
+	.styled div{
+		height: 70px;
+	}
+
+	.my-words h3{
+		font-size: 18px;
+	}
+}
