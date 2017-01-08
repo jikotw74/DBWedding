@@ -1117,3 +1117,17 @@ nav#filter li {
 		font-size: 18px;
 	}
 }
+
+.my-gallery{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.my-gallery-fig{
+	margin: 0 0.5em;
+}
+
+.my-gallery-fig:hover{
+	opacity: 0.8;
+}
